@@ -33,5 +33,16 @@ namespace Maliyet_ProjeNew.Properties {
                 return ((string)(this["ProjeMaliyetConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-248O3CN\\SQLEXPRESS;Initial Catalog=Test_Maliyet;Integrated Se" +
+            "curity=True")]
+        public string Test_MaliyetConnectionString {
+            get {
+                return ((string)(this["Test_MaliyetConnectionString"]));
+            }
+        }
     }
 }

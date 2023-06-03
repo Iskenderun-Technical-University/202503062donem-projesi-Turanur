@@ -31,9 +31,10 @@ namespace Maliyet_ProjeNew
         }
 
         //Data Source = DESKTOP - 248O3CN\SQLEXPRESS;Initial Catalog = ProjeMaliyet; Integrated Security = True
-        // *
+        // İKİNCİ VERİ TABANI
+        // Data Source=DESKTOP-248O3CN\SQLEXPRESS;Initial Catalog=Test_Maliyet;Integrated Security=True
 
-        SqlConnection baglanti = new SqlConnection(@"Data Source = DESKTOP-248O3CN\SQLEXPRESS;Initial Catalog = ProjeMaliyet; Integrated Security = True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-248O3CN\SQLEXPRESS;Initial Catalog=Test_Maliyet;Integrated Security=True");
 
 
         void MalzemeListe()
