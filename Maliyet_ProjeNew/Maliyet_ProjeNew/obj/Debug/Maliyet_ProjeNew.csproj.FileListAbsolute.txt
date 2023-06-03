@@ -1,0 +1,11 @@
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\bin\Debug\Maliyet_ProjeNew.exe.config
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\bin\Debug\Maliyet_ProjeNew.exe
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\bin\Debug\Maliyet_ProjeNew.pdb
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\obj\Debug\Maliyet_ProjeNew.csproj.AssemblyReference.cache
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\obj\Debug\Maliyet_ProjeNew.csproj.SuggestedBindingRedirects.cache
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\obj\Debug\Maliyet_ProjeNew.Form1.resources
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\obj\Debug\Maliyet_ProjeNew.Properties.Resources.resources
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\obj\Debug\Maliyet_ProjeNew.csproj.GenerateResource.cache
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\obj\Debug\Maliyet_ProjeNew.csproj.CoreCompileInputs.cache
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\obj\Debug\Maliyet_ProjeNew.exe
+C:\Users\Arif Enes Turan\source\repos\Maliyet_ProjeNew\Maliyet_ProjeNew\obj\Debug\Maliyet_ProjeNew.pdb
