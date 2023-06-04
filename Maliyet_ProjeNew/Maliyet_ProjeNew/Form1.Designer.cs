@@ -320,7 +320,7 @@
             this.BtnUrunGüncelle.Name = "BtnUrunGüncelle";
             this.BtnUrunGüncelle.Size = new System.Drawing.Size(116, 27);
             this.BtnUrunGüncelle.TabIndex = 11;
-            this.BtnUrunGüncelle.Text = "ÜRÜN SİL";
+            this.BtnUrunGüncelle.Text = "Ürün Sil";
             this.BtnUrunGüncelle.UseVisualStyleBackColor = true;
             this.BtnUrunGüncelle.Click += new System.EventHandler(this.BtnUrunGüncelle_Click);
             // 

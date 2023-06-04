@@ -219,18 +219,25 @@ namespace Maliyet_ProjeNew
             //String t5 = TxtUrunSFiyat.Text;
 
             //baglanti.Open();
-            //SqlCommand komut = new SqlCommand("UPDATE tblurunler SET urunıd='" + t1 + "' , urunad='" + t2 + "' , urunstok='" + t3 + "' , urunmfıyat='" + t4 + "' , urunsfıyat='" + t5 + "' WHERE urunstok '" + t3 + "' ", baglanti);
-            //komut.ExecuteNonQuery();
+            //SqlCommand guncelle = new SqlCommand("UPDATE tblurunler SET  urunad=@p1 , urunstok=@p2 , urunmfıyat=@p3 , urunsfıyat=@p4 WHERE urunıd=@p5 ", baglanti);
+            //guncelle.Parameters.AddWithValue("@p1", TxtUrunAd.Text);
+            //guncelle.Parameters.AddWithValue("@p2", TxtUrunStok.Text);
+            //guncelle.Parameters.AddWithValue("@p3", TxtUrunMFiyat.Text);
+            //guncelle.Parameters.AddWithValue("@p4", TxtUrunSFiyat.Text);
+            //guncelle.Parameters.AddWithValue("@p5", TxtUrunID.Text);
+            //guncelle.ExecuteNonQuery();
             //baglanti.Close();
-            //MessageBox.Show("Malzeme Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MessageBox.Show("ÜRÜN GÜNCELLENMESİ TAMAMLANDI", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             //UrunListesi();
 
-            baglanti.Open() ;
-            SqlCommand sil =new SqlCommand("Delete From tblurunler Where urunıd=@p1" , baglanti) ;
+
+            baglanti.Open();
+            SqlCommand sil = new SqlCommand("Delete From tblurunler Where urunıd=@p1", baglanti);
             sil.Parameters.AddWithValue("@p1", TxtUrunID.Text);
             sil.ExecuteNonQuery();
             baglanti.Close();
             MessageBox.Show("Kayıt Silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
 
         }
 
