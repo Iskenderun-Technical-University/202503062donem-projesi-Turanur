@@ -312,6 +312,7 @@
             this.TxtUrunSFiyat.Name = "TxtUrunSFiyat";
             this.TxtUrunSFiyat.Size = new System.Drawing.Size(116, 25);
             this.TxtUrunSFiyat.TabIndex = 10;
+            this.TxtUrunSFiyat.TextChanged += new System.EventHandler(this.TxtUrunSFiyat_TextChanged);
             // 
             // BtnUrunGüncelle
             // 
@@ -319,7 +320,7 @@
             this.BtnUrunGüncelle.Name = "BtnUrunGüncelle";
             this.BtnUrunGüncelle.Size = new System.Drawing.Size(116, 27);
             this.BtnUrunGüncelle.TabIndex = 11;
-            this.BtnUrunGüncelle.Text = "Güncelle";
+            this.BtnUrunGüncelle.Text = "ÜRÜN SİL";
             this.BtnUrunGüncelle.UseVisualStyleBackColor = true;
             this.BtnUrunGüncelle.Click += new System.EventHandler(this.BtnUrunGüncelle_Click);
             // 
@@ -477,7 +478,7 @@
             // 
             // BtnMalzemeListesi
             // 
-            this.BtnMalzemeListesi.Location = new System.Drawing.Point(18, 82);
+            this.BtnMalzemeListesi.Location = new System.Drawing.Point(18, 33);
             this.BtnMalzemeListesi.Name = "BtnMalzemeListesi";
             this.BtnMalzemeListesi.Size = new System.Drawing.Size(184, 31);
             this.BtnMalzemeListesi.TabIndex = 1;
@@ -487,7 +488,7 @@
             // 
             // BtnUrunListesi
             // 
-            this.BtnUrunListesi.Location = new System.Drawing.Point(18, 41);
+            this.BtnUrunListesi.Location = new System.Drawing.Point(18, 79);
             this.BtnUrunListesi.Name = "BtnUrunListesi";
             this.BtnUrunListesi.Size = new System.Drawing.Size(184, 31);
             this.BtnUrunListesi.TabIndex = 0;
