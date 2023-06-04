@@ -113,6 +113,7 @@ namespace Maliyet_ProjeNew
 
         private void BtnKasa_Click(object sender, EventArgs e)
         {
+
             kasa();
         }
 
@@ -207,6 +208,25 @@ namespace Maliyet_ProjeNew
             }
 
             baglanti.Close() ;
+        }
+
+        private void BtnUrunGüncelle_Click(object sender, EventArgs e)
+        {
+            //String t1 = TxtUrunID.Text;
+            //String t2 = TxtUrunAd.Text;
+            //String t3 = TxtUrunStok.Text;
+            //String t4 = TxtUrunMFiyat.Text;
+            //String t5 = TxtUrunSFiyat.Text;
+
+            //baglanti.Open() ;
+            //SqlCommand komut = new SqlCommand("UPDATE tblurunler SET urunıd='" + t1 + "' , urunad='" + t2 + "' , urunstok='" + t3 + "' , urunmfıyat='" + t4 + "' , urunsfıyat='" + t5 + "' WHERE urunstok '"+ t3 +"' ", baglanti);
+            //komut.ExecuteNonQuery();
+            //baglanti.Close();
+
+            //UrunListesi();
+
+
+
         }
     }
 }

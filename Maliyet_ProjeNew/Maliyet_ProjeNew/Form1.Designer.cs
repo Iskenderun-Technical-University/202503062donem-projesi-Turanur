@@ -73,7 +73,6 @@
             this.BtnUrunListesi = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -322,6 +321,7 @@
             this.BtnUrunGüncelle.TabIndex = 11;
             this.BtnUrunGüncelle.Text = "Güncelle";
             this.BtnUrunGüncelle.UseVisualStyleBackColor = true;
+            this.BtnUrunGüncelle.Click += new System.EventHandler(this.BtnUrunGüncelle_Click);
             // 
             // groupBox3
             // 
@@ -346,7 +346,6 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Controls.Add(this.CmbMalzeme);
             this.groupBox4.Controls.Add(this.CmbUrun);
             this.groupBox4.Controls.Add(this.TxtMaliyet);
@@ -516,15 +515,6 @@
             this.listBox1.Size = new System.Drawing.Size(216, 305);
             this.listBox1.TabIndex = 0;
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(59, 276);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(49, 18);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "label11";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
@@ -603,7 +593,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ComboBox CmbMalzeme;
         private System.Windows.Forms.ComboBox CmbUrun;
-        private System.Windows.Forms.Label label11;
     }
 }
 
