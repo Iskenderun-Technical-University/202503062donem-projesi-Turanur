@@ -140,6 +140,11 @@ namespace Maliyet_ProjeNew
             baglanti.Close();
             MessageBox.Show("Ürün Sisteme Eklendi" , "Bilgi" , MessageBoxButtons.OK , MessageBoxIcon.Information);
             UrunListesi();
+            MalzemeListe();
+
+            urunler();
+
+            malzemeler();
         }
 
         private void BtnUrunOluştur_Click(object sender, EventArgs e)
@@ -150,7 +155,7 @@ namespace Maliyet_ProjeNew
             komut.Parameters.AddWithValue("@p2", CmbMalzeme.SelectedValue);
             komut.Parameters.AddWithValue("@p3", decimal.Parse(TxtMiktar.Text));
             komut.Parameters.AddWithValue("@p4", decimal.Parse(TxtMaliyet.Text));
-            komut.ExecuteNonQuery();
+            //komut.ExecuteNonQuery();
             baglanti.Close();
             MessageBox.Show("Malzeme Eklendi","Bilgi", MessageBoxButtons.OK,MessageBoxIcon.Information);
 
@@ -242,6 +247,17 @@ namespace Maliyet_ProjeNew
         }
 
         private void TxtUrunSFiyat_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnCikis_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("BİZİ TERCİH ETTİĞİNİZ İÇİN TEŞEKKÜR EDERİZ KUZULARIIIM","Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Application.Exit();
+        }
+
+        private void CmbUrun_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

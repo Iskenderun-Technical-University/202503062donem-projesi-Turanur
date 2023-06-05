@@ -381,6 +381,7 @@
             this.CmbUrun.Name = "CmbUrun";
             this.CmbUrun.Size = new System.Drawing.Size(121, 26);
             this.CmbUrun.TabIndex = 9;
+            this.CmbUrun.SelectedIndexChanged += new System.EventHandler(this.CmbUrun_SelectedIndexChanged);
             // 
             // TxtMaliyet
             // 
@@ -465,6 +466,7 @@
             this.BtnCikis.TabIndex = 3;
             this.BtnCikis.Text = "ÇIKIŞ";
             this.BtnCikis.UseVisualStyleBackColor = true;
+            this.BtnCikis.Click += new System.EventHandler(this.BtnCikis_Click);
             // 
             // BtnKasa
             // 
